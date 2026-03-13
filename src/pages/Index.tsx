@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import TopBar from "@/components/TopBar";
+import Header from "@/components/Header";
+import HeroSection from "@/components/home/HeroSection";
+import ServicesAISection from "@/components/home/ServicesAISection";
+import CounterBand from "@/components/home/CounterBand";
+import AboutSection from "@/components/home/AboutSection";
+import ProfessionalServices from "@/components/home/ProfessionalServices";
+import ReviewsSection from "@/components/home/ReviewsSection";
+import ClientsSection from "@/components/home/ClientsSection";
+import BlogSection from "@/components/home/BlogSection";
+import CTASection from "@/components/home/CTASection";
+import Footer from "@/components/Footer";
+import MobileFooterBar from "@/components/MobileFooterBar";
+import ChatWidget from "@/components/ChatWidget";
+import CookieBanner from "@/components/CookieBanner";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="pb-mobile-bar">
+      <TopBar />
+      <Header />
+      <main>
+        <HeroSection />
+        <ServicesAISection />
+        <CounterBand />
+        <AboutSection />
+        <ProfessionalServices />
+        <ReviewsSection />
+        <ClientsSection />
+        <BlogSection />
+        <CTASection />
+      </main>
+      <Footer />
+      <MobileFooterBar />
+      <ChatWidget />
+      <CookieBanner />
     </div>
   );
 };
