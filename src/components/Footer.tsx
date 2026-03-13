@@ -62,7 +62,7 @@ const Footer = () => {
                 { label: "Privacy Policy", href: "/privacy" },
                 { label: "Cookie Policy", href: "/cookie-policy" },
               ].map((l) => (
-                <li key={l.label}><a href={l.href} className="hover:text-primary transition-colors">{l.label}</a></li>
+                <li key={l.label}><a href={l.href} className="hover:text-white transition-colors">{l.label}</a></li>
               ))}
             </ul>
           </div>
