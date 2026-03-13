@@ -55,7 +55,7 @@ const ServicePage = () => {
                 <Button asChild size="lg" className="rounded-full px-8 bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold">
                   <a href="/prenota">Prenota Consulenza Gratuita</a>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-full px-8 border-white/40 text-white hover:bg-white/10 font-semibold">
+                <Button asChild size="lg" className="rounded-full px-8 bg-white text-primary hover:bg-white/90 font-semibold">
                   <a href="#pricing">Vedi i piani</a>
                 </Button>
               </div>
@@ -137,7 +137,7 @@ const ServicePage = () => {
         </section>
 
         {/* FAQ */}
-        <section className="py-20 md:py-28 bg-surface-dim">
+        <section className="py-20 md:py-28 bg-background">
           <div className="container max-w-2xl">
             <div className="text-center mb-14">
               <h2 className="font-display text-h2-mobile md:text-h2 text-foreground">Domande frequenti</h2>

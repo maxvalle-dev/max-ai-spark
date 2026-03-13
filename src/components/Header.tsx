@@ -31,7 +31,7 @@ const Header = () => {
     >
       <div className="container flex items-center justify-between h-16">
         <Link to="/">
-          <img src={logo} alt="Max Valle" className="h-8" />
+          <img src={logo} alt="Max Valle" className="h-10 md:h-12" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -48,7 +48,7 @@ const Header = () => {
 
         <div className="hidden md:block">
           <Button asChild className="rounded-full px-6 shadow-card font-semibold">
-            <a href="/prenota">Prenota Consulenza</a>
+            <a href="/prenota">Consulenza Gratuita</a>
           </Button>
         </div>
 
