@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileFooterBar from "@/components/MobileFooterBar";
 import ChatWidget from "@/components/ChatWidget";
