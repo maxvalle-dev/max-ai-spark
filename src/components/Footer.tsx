@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <img src={logo} alt="Max Valle" className="h-10 mb-3" />
+            <img src={logo} alt="Max Valle" className="h-16 md:h-20 w-auto mb-3" />
             <p className="text-sm text-muted leading-relaxed mb-4">
               Business AI Strategist con 33 anni di esperienza. Guido le PMI italiane verso il futuro digitale.
             </p>
