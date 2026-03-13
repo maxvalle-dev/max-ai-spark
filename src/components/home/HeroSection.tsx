@@ -98,9 +98,7 @@ const HeroSection = () => {
           >
             <div className="bg-background/60 backdrop-blur-xl border border-border/50 rounded-3xl p-8 shadow-float max-w-sm mx-auto">
               <div className="flex flex-col items-center mb-6">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary-light flex items-center justify-center text-4xl mb-4 shadow-glass">
-                  👨‍💼
-                </div>
+                <img src={maxVallePhoto} alt="Max Valle" className="w-20 h-20 rounded-full object-cover object-top shadow-glass mb-4" />
                 <h3 className="font-display text-xl font-bold text-foreground">Max Valle</h3>
                 <p className="text-sm text-muted">Business AI Strategist</p>
               </div>

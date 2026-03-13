@@ -3,6 +3,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/max-valle-logo.svg";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -29,10 +30,8 @@ const Header = () => {
       }`}
     >
       <div className="container flex items-center justify-between h-16">
-        <Link to="/" className="flex items-center gap-0 font-display text-xl font-bold tracking-tight">
-          <span className="text-primary">max</span>
-          <span className="text-foreground">valle</span>
-          <span className="text-muted">.it</span>
+        <Link to="/">
+          <img src={logo} alt="Max Valle" className="h-8" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

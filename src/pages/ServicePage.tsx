@@ -93,7 +93,7 @@ const ServicePage = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {steps.map((step, i) => (
                 <motion.div key={step.num} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }}>
-                  <div className="font-display text-5xl font-extrabold text-primary/15 mb-2">{step.num}</div>
+                  <div className="font-display text-5xl font-extrabold text-primary/30 mb-2">{step.num}</div>
                   <h3 className="font-display text-lg font-semibold text-foreground mb-2">{step.title}</h3>
                   <p className="text-sm text-muted leading-relaxed">{step.desc}</p>
                   {i < steps.length - 1 && <ArrowRight className="hidden lg:block w-5 h-5 text-primary/30 mt-4 ml-auto" />}
