@@ -13,7 +13,7 @@ const wordVariants = {
 };
 
 const HeroSection = () => {
-  const words = ["Faccio", "crescere", "il tuo", "business", "con", "l'AI"];
+  const words = ["Trasforma", "la tua", "azienda", "con", "l'Intelligenza", "Artificiale", "ed il", "digital", "marketing"];
 
   return (
     <section className="relative bg-aurora min-h-[calc(100vh-7rem)] flex items-center overflow-hidden">
@@ -39,7 +39,7 @@ const HeroSection = () => {
                   animate="visible"
                   variants={wordVariants}
                   className={`inline-block mr-3 ${
-                    word === "il tuo" || word === "business" ? "text-gradient-hero" : ""
+                    word === "azienda" || word === "l'Intelligenza" || word === "Artificiale" ? "text-gradient-hero" : ""
                   }`}
                 >
                   {word}
@@ -85,7 +85,7 @@ const HeroSection = () => {
                   <Star key={i} className="w-4 h-4 fill-current" />
                 ))}
               </div>
-              <span>4.9/5 · 200+ recensioni · 2.500 aziende</span>
+              <span>4.9/5 · oltre 110+ recensioni</span>
             </motion.div>
           </div>
 
