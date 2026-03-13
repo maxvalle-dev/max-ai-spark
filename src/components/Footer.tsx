@@ -53,8 +53,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-foreground mb-4">Info</h4>
-            <ul className="space-y-2.5 text-sm text-muted">
+            <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white mb-4">Info</h4>
+            <ul className="space-y-2.5 text-sm text-white/60">
               {[
                 { label: "Chi sono", href: "#chi-sono" },
                 { label: "Blog", href: "/blog" },
