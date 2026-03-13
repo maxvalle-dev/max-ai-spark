@@ -68,7 +68,7 @@ const Footer = () => {
       <div className="border-t border-border bg-surface-dim py-6">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-muted">
           <span>© {new Date().getFullYear()} MaxValle.it — Tutti i diritti riservati</span>
-          <span>P.IVA: IT02948220967</span>
+          <span className="text-center">It's Genius Srl — P.IVA 08770720962 · REA MI 2047898 · Cap. Soc. 25.000€ i.v.</span>
         </div>
       </div>
     </footer>
