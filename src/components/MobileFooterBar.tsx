@@ -1,10 +1,9 @@
-import { Phone, MessageCircle, Mail, Menu } from "lucide-react";
+import { Phone, MessageCircle, Mail } from "lucide-react";
 
 const actions = [
   { icon: Phone, label: "Chiama", href: "tel:+390287158054", external: true },
   { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/393351444135", external: true },
   { icon: Mail, label: "Contatti", href: "/contatti", external: false },
-  { icon: Menu, label: "Menu", href: "#", external: false },
 ];
 
 const MobileFooterBar = () => {
