@@ -43,8 +43,8 @@ const ProfessionalServices = () => {
                 {s.emoji}
               </div>
               <div className="flex-1 min-w-0">
-                <h3 className="font-display text-sm font-semibold text-foreground mb-1">{s.title}</h3>
-                <p className="text-xs text-muted leading-relaxed mb-2">{s.desc}</p>
+                <h3 className="font-display text-base font-semibold text-foreground mb-1">{s.title}</h3>
+                <p className="text-sm text-muted leading-relaxed mb-2">{s.desc}</p>
                 <span className={`inline-flex items-center gap-1 text-xs font-semibold ${s.color} group-hover:gap-2 transition-all`}>
                   Scopri <ArrowRight className="w-3 h-3" />
                 </span>
