@@ -14,9 +14,12 @@ const checkItems = [
 
 
 const certifications = [
-  { icon: Shield, title: "CPEH", desc: "Certified Professional Ethical Hacker" },
-  { icon: Scale, title: "FederPrivacy", desc: "Consulente Privacy certificato" },
-  { icon: Award, title: "CTU Tribunale", desc: "Consulente Tecnico d'Ufficio" },
+  { icon: Award, title: "Consulente IA e Digital Marketing", desc: "Consulente Intelligenza Artificiale e di digital marketing" },
+  { icon: Shield, title: "CPEH n°4053103", desc: "Certified Professional Ethical Hacker" },
+  { icon: Award, title: "IWA n°0312827", desc: "International Web Association" },
+  { icon: Shield, title: "Federprivacy n°FP-9572", desc: "Membro Federprivacy" },
+  { icon: Scale, title: "AIP n°3241", desc: "Associazione Informatici Professionisti" },
+  { icon: Scale, title: "CTU Tribunale", desc: "Consulente Tecnico d'Ufficio — Tribunale di Lodi" },
 ];
 
 const AboutSection = () => {
