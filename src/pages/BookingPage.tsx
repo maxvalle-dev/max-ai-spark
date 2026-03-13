@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileFooterBar from "@/components/MobileFooterBar";
@@ -28,7 +27,7 @@ const BookingPage = () => {
 
   return (
     <div className="pb-mobile-bar">
-      <TopBar />
+      
       <Header />
       <main className="py-16 md:py-24">
         <div className="container max-w-2xl">

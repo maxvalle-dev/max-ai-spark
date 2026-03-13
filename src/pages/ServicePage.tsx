@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileFooterBar from "@/components/MobileFooterBar";
@@ -40,7 +39,7 @@ const faqs = [
 const ServicePage = () => {
   return (
     <div className="pb-mobile-bar">
-      <TopBar />
+      
       <Header />
       <main>
         {/* Hero */}
