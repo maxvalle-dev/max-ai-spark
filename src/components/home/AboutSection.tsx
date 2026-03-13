@@ -12,13 +12,6 @@ const checkItems = [
   "Autore di 5 libri sul digitale",
 ];
 
-const books = [
-  { title: "Genitori e Internet®", color: "bg-primary-50 text-primary border-primary/20" },
-  { title: "Siti da Incubo®", color: "bg-red-50 text-service-marketing border-red-200" },
-  { title: "Web Marketing: il Manuale", color: "bg-green-50 text-service-web border-green-200" },
-  { title: "Email Marketing", color: "bg-yellow-50 text-service-gdpr border-yellow-200" },
-  { title: "Formula Infoprodotto", color: "bg-purple-50 text-service-consulting border-purple-200" },
-];
 
 const certifications = [
   { icon: Shield, title: "CPEH", desc: "Certified Professional Ethical Hacker" },
@@ -58,18 +51,6 @@ const AboutSection = () => {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">📚 I miei libri</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {books.map((book) => (
-                  <div key={book.title} className={`${book.color} border rounded-xl p-4 text-center`}>
-                    <div className="text-2xl mb-2">📘</div>
-                    <div className="text-xs font-semibold leading-tight">{book.title}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Certificazioni</h4>
               <div className="space-y-3">

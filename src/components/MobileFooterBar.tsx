@@ -9,13 +9,13 @@ const actions = [
 
 const MobileFooterBar = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-foreground border-t border-foreground/90">
+    <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-background border-t border-border shadow-float">
       <div className="flex items-center justify-around h-[60px]">
         {actions.map(({ icon: Icon, label, href }) => (
           <a
             key={label}
             href={href}
-            className="flex flex-col items-center gap-0.5 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+            className="flex flex-col items-center gap-0.5 text-primary hover:text-primary/80 transition-colors"
             aria-label={label}
           >
             <Icon className="w-5 h-5" />
