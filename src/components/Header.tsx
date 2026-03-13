@@ -130,29 +130,31 @@ const Header = () => {
   };
 
   return (
-    <header
-      className={`sticky top-0 z-50 transition-all duration-300 bg-background/80 backdrop-blur-xl ${
-        scrolled ? "shadow-header" : ""
-      }`}
-    >
-      <div className="container flex items-center justify-between h-20 md:h-24">
-        <Link to="/">
-          <img src={logo} alt="Max Valle" className="h-16 md:h-20 w-auto" />
-        </Link>
+    <>
+      <header
+        className={`sticky top-0 z-50 transition-all duration-300 bg-background/80 backdrop-blur-xl ${
+          scrolled ? "shadow-header" : ""
+        }`}
+      >
+        <div className="container flex items-center justify-between h-20 md:h-24">
+          <Link to="/">
+            <img src={logo} alt="Max Valle" className="h-16 md:h-20 w-auto" />
+          </Link>
 
-        <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:inline-flex rounded-full px-6 shadow-card font-semibold">
-            <a href="/prenota">Consulenza Gratuita</a>
-          </Button>
-          <button
-            className="p-2 text-foreground"
-            onClick={() => setMenuOpen(true)}
-            aria-label="Apri menu"
-          >
-            <Menu className="w-7 h-7" />
-          </button>
+          <div className="flex items-center gap-4">
+            <Button asChild className="hidden sm:inline-flex rounded-full px-6 shadow-card font-semibold">
+              <a href="/prenota">Consulenza Gratuita</a>
+            </Button>
+            <button
+              className="p-2 text-foreground"
+              onClick={() => setMenuOpen(true)}
+              aria-label="Apri menu"
+            >
+              <Menu className="w-7 h-7" />
+            </button>
+          </div>
         </div>
-      </div>
+      </header>
 
       <AnimatePresence>
         {menuOpen && (
@@ -161,7 +163,7 @@ const Header = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-foreground/20 backdrop-blur-sm z-50"
+              className="fixed inset-0 bg-foreground/20 backdrop-blur-sm z-[100]"
               onClick={() => setMenuOpen(false)}
             />
             <motion.div
@@ -169,9 +171,8 @@ const Header = () => {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", stiffness: 300, damping: 30 }}
-              className="fixed top-0 right-0 bottom-0 w-full max-w-md bg-background z-50 shadow-float flex flex-col"
+              className="fixed top-0 right-0 bottom-0 w-full max-w-md bg-background z-[101] shadow-float flex flex-col"
             >
-              {/* Menu header */}
               <div className="flex justify-between items-center p-5 border-b border-border">
                 <img src={logo} alt="Max Valle" className="h-12 w-auto" />
                 <button onClick={() => setMenuOpen(false)} aria-label="Chiudi menu">
@@ -179,7 +180,6 @@ const Header = () => {
                 </button>
               </div>
 
-              {/* Menu items */}
               <nav className="flex-1 overflow-y-auto py-2">
                 {menuItems.map(({ icon: Icon, label, href, children }) => (
                   <div key={label} className="border-b border-border/50">
@@ -237,7 +237,6 @@ const Header = () => {
                 ))}
               </nav>
 
-              {/* Menu footer CTA */}
               <div className="p-5 border-t border-border">
                 <Button asChild className="rounded-full w-full text-base py-6 font-semibold">
                   <a href="/prenota" onClick={() => setMenuOpen(false)}>Consulenza Gratuita</a>
@@ -247,7 +246,7 @@ const Header = () => {
           </>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 };
 
