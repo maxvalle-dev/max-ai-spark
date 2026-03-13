@@ -55,7 +55,7 @@ const ServicePage = () => {
                 <Button asChild size="lg" className="rounded-full px-8 bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold">
                   <a href="/prenota">Prenota Consulenza Gratuita</a>
                 </Button>
-                <Button asChild variant="outline" size="lg" className="rounded-full px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold">
+                <Button asChild variant="outline" size="lg" className="rounded-full px-8 border-white/40 text-white hover:bg-white/10 font-semibold">
                   <a href="#pricing">Vedi i piani</a>
                 </Button>
               </div>
