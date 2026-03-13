@@ -52,7 +52,7 @@ const BooksSection = () => {
             Pubblicazioni e <span className="text-gradient-hero">Best Seller</span>
           </h2>
           <p className="text-muted text-lg max-w-2xl mx-auto">
-            Oltre 30 anni di esperienza condensati in guide pratiche per imprenditori e professionisti.
+            Sono autore e contributore di questi libri.
           </p>
         </motion.div>
 

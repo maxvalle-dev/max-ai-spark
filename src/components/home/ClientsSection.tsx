@@ -48,7 +48,7 @@ const ClientsSection = () => {
               <img
                 src={client.logo}
                 alt={client.name}
-                className="h-14 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                className="h-20 md:h-24 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
                 loading="lazy"
               />
             </motion.div>
