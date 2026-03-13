@@ -62,7 +62,7 @@ const HeroSection = () => {
               transition={{ delay: 1 }}
               className="flex flex-col sm:flex-row gap-4 mb-8"
             >
-              <Button asChild size="lg" className="rounded-full px-8 text-base font-semibold gap-2">
+              <Button asChild size="lg" className="rounded-full px-8 text-base font-semibold gap-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground">
                 <a href="/servizi-ai">
                   Scopri i Servizi AI <ArrowRight className="w-4 h-4" />
                 </a>
