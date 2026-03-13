@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Star, Shield, Scale, Award } from "lucide-react";
+import maxVallePhoto from "@/assets/max-valle.png";
 
 const wordVariants = {
   hidden: { opacity: 0, y: 20 },
