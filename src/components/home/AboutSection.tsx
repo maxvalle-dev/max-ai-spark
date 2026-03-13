@@ -12,13 +12,6 @@ const checkItems = [
   "Autore di 5 libri sul digitale",
 ];
 
-const books = [
-  { title: "Genitori e Internet®", color: "bg-primary-50 text-primary border-primary/20" },
-  { title: "Siti da Incubo®", color: "bg-red-50 text-service-marketing border-red-200" },
-  { title: "Web Marketing: il Manuale", color: "bg-green-50 text-service-web border-green-200" },
-  { title: "Email Marketing", color: "bg-yellow-50 text-service-gdpr border-yellow-200" },
-  { title: "Formula Infoprodotto", color: "bg-purple-50 text-service-consulting border-purple-200" },
-];
 
 const certifications = [
   { icon: Shield, title: "CPEH", desc: "Certified Professional Ethical Hacker" },
