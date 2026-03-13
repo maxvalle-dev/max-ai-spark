@@ -9,7 +9,7 @@ const actions = [
 
 const MobileFooterBar = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-background border-t border-border shadow-float">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-background border-t border-border shadow-float" aria-label="Azioni rapide">
       <div className="flex items-center justify-around h-[60px]">
         {actions.map(({ icon: Icon, label, href }) => (
           <a
