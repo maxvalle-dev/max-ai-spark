@@ -12,7 +12,6 @@ import CTASection from "@/components/home/CTASection";
 import Footer from "@/components/Footer";
 import MobileFooterBar from "@/components/MobileFooterBar";
 import ChatWidget from "@/components/ChatWidget";
-import CookieBanner from "@/components/CookieBanner";
 
 const Index = () => {
   return (
@@ -33,7 +32,6 @@ const Index = () => {
       <Footer />
       <MobileFooterBar />
       <ChatWidget />
-      <CookieBanner />
     </div>
   );
 };
