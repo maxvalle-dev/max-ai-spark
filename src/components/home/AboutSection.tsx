@@ -55,7 +55,7 @@ const AboutSection = () => {
             className="space-y-8"
           >
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Certificazioni</h4>
+              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Credenziali</h4>
               <div className="space-y-3">
                 {certifications.map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex items-center gap-4 p-4 bg-surface-dim rounded-xl border">
