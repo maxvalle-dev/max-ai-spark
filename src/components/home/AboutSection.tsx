@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <ul className="space-y-3">
               {checkItems.map((item) => (
-                <li key={item} className="flex items-start gap-3 text-sm">
+                <li key={item} className="flex items-start gap-3 text-base">
                   <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                   <span className="text-foreground">{item}</span>
                 </li>
@@ -63,8 +63,8 @@ const AboutSection = () => {
                       <Icon className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="font-display text-sm font-semibold text-foreground">{title}</div>
-                      <div className="text-xs text-muted">{desc}</div>
+                      <div className="font-display text-base font-semibold text-foreground">{title}</div>
+                      <div className="text-sm text-muted">{desc}</div>
                     </div>
                   </div>
                 ))}

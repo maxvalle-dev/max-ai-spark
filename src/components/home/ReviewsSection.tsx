@@ -57,7 +57,7 @@ const ReviewsSection = () => {
                   <Star key={j} className="w-4 h-4 text-secondary fill-secondary" />
                 ))}
               </div>
-              <p className="text-sm text-foreground italic leading-relaxed mb-6">"{r.text}"</p>
+              <p className="text-base text-foreground italic leading-relaxed mb-6">"{r.text}"</p>
               <div className="flex items-center gap-3">
                 <div className={`w-10 h-10 rounded-full ${r.color} text-primary-foreground flex items-center justify-center font-display font-bold text-sm`}>
                   {r.initial}

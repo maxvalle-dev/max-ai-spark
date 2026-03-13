@@ -36,7 +36,7 @@ const ServicesAISection = () => {
               className="card-service group relative"
             >
               {s.badge && (
-                <span className={`absolute top-4 right-4 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${
+                <span className={`absolute top-4 right-4 text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full ${
                   s.badge === "Nuovo" ? "bg-green-50 text-service-web" : "bg-secondary-50 text-secondary"
                 }`}>
                   {s.badge}
