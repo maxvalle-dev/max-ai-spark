@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="text-white">valle</span>
               <span className="text-white/50">.it</span>
             </div>
-            <p className="text-sm text-muted leading-relaxed mb-4">
+            <p className="text-sm text-white/60 leading-relaxed mb-4">
               Business AI Strategist con 33 anni di esperienza. Guido le PMI italiane verso il futuro digitale.
             </p>
             <div className="flex gap-3">
