@@ -27,6 +27,7 @@ const Index = () => {
         <ProfessionalServices />
         <ReviewsSection />
         <ClientsSection />
+        <BooksSection />
         <BlogSection />
         <CTASection />
       </main>
