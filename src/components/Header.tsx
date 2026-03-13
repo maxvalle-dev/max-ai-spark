@@ -29,7 +29,7 @@ const Header = () => {
         scrolled ? "shadow-header" : ""
       }`}
     >
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-20 md:h-24">
         <Link to="/">
           <img src={logo} alt="Max Valle" className="h-10 md:h-12" />
         </Link>
