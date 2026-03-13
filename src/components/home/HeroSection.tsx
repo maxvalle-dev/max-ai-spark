@@ -13,7 +13,7 @@ const wordVariants = {
 };
 
 const HeroSection = () => {
-  const words = ["Faccio", "crescere", "il tuo", "business", "con", "l'AI"];
+  const words = ["Trasforma", "la tua", "azienda", "con", "l'Intelligenza", "Artificiale", "ed il", "digital", "marketing"];
 
   return (
     <section className="relative bg-aurora min-h-[calc(100vh-7rem)] flex items-center overflow-hidden">
