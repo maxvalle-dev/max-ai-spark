@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Mail, Menu } from "lucide-react";
+import { Phone, MessageCircle, Mail } from "lucide-react";
 
 const actions = [
   { icon: Phone, label: "Chiama", href: "tel:+390287158054", external: true },
