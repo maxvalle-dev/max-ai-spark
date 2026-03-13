@@ -39,7 +39,7 @@ const HeroSection = () => {
                   animate="visible"
                   variants={wordVariants}
                   className={`inline-block mr-3 ${
-                    word === "il tuo" || word === "business" ? "text-gradient-hero" : ""
+                    word === "azienda" || word === "l'Intelligenza" || word === "Artificiale" ? "text-gradient-hero" : ""
                   }`}
                 >
                   {word}
