@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <div className="font-display text-xl font-bold tracking-tight mb-3">
-              <span className="text-primary">max</span>
-              <span className="text-foreground">valle</span>
-              <span className="text-muted">.it</span>
+              <span className="text-primary-light">max</span>
+              <span className="text-white">valle</span>
+              <span className="text-white/50">.it</span>
             </div>
             <p className="text-sm text-muted leading-relaxed mb-4">
               Business AI Strategist con 33 anni di esperienza. Guido le PMI italiane verso il futuro digitale.
