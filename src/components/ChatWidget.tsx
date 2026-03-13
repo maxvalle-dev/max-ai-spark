@@ -47,10 +47,13 @@ const ChatWidget = () => {
             </div>
             <div className="p-3 border-t">
               <div className="flex gap-2">
+                <label htmlFor="chat-input" className="sr-only">Scrivi un messaggio</label>
                 <input
+                  id="chat-input"
                   type="text"
                   placeholder="Scrivi un messaggio..."
                   className="flex-1 text-sm px-4 py-2.5 rounded-full border bg-surface-dim focus:outline-none focus:ring-2 focus:ring-primary/30"
+                />
                 />
                 <button className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center hover:bg-primary-light transition-colors" aria-label="Invia messaggio">
                   <Send className="w-4 h-4" />

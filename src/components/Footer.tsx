@@ -3,7 +3,7 @@ import logo from "@/assets/max-valle-logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-white border-t border-border">
+    <footer className="bg-background border-t border-border" role="contentinfo">
       <div className="container py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>

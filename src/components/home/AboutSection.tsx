@@ -63,8 +63,8 @@ const AboutSection = () => {
                       <Icon className="w-5 h-5" />
                     </div>
                     <div>
-                      <div className="font-display text-sm font-semibold text-foreground">{title}</div>
-                      <div className="text-xs text-muted">{desc}</div>
+                      <div className="font-display text-base font-semibold text-foreground">{title}</div>
+                      <div className="text-sm text-muted">{desc}</div>
                     </div>
                   </div>
                 ))}

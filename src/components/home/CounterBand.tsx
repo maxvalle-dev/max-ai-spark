@@ -40,7 +40,7 @@ const CountUp = ({ target, suffix }: { target: number; suffix: string }) => {
 
 const CounterBand = () => {
   return (
-    <section className="bg-gradient-to-r from-primary to-[#0D47A1] py-14">
+    <section className="bg-gradient-to-r from-primary to-primary-light py-14" aria-label="Statistiche">
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, i) => (

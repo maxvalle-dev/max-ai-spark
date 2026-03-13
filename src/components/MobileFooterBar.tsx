@@ -23,7 +23,7 @@ const MobileFooterBar = () => {
           </a>
         ))}
       </div>
-    </div>
+    </nav>
   );
 };
 

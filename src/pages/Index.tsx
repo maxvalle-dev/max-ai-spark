@@ -19,7 +19,7 @@ const Index = () => {
     <div className="pb-mobile-bar">
       <TopBar />
       <Header />
-      <main>
+      <main id="main-content">
         <HeroSection />
         <ServicesAISection />
         <CounterBand />
