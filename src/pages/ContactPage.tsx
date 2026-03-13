@@ -38,7 +38,7 @@ const ContactPage = () => {
 
   return (
     <div className="pb-mobile-bar">
-      <TopBar />
+      
       <Header />
       <main className="py-16 md:py-24">
         <div className="container">

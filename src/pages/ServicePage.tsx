@@ -40,7 +40,7 @@ const faqs = [
 const ServicePage = () => {
   return (
     <div className="pb-mobile-bar">
-      <TopBar />
+      
       <Header />
       <main>
         {/* Hero */}
