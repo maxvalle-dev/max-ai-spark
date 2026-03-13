@@ -38,7 +38,7 @@ const Footer = () => {
             <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-white mb-4">Servizi AI</h4>
             <ul className="space-y-2.5 text-sm text-white/60">
               {["Strategia AI su Misura", "Marketing AI", "Agenti AI", "AI Generativa", "SEO per AI", "Assistenti Vocali"].map((s) => (
-                <li key={s}><a href="/servizi-ai" className="hover:text-primary transition-colors">{s}</a></li>
+                <li key={s}><a href="/servizi-ai" className="hover:text-white transition-colors">{s}</a></li>
               ))}
             </ul>
           </div>
