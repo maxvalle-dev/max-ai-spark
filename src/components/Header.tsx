@@ -48,7 +48,7 @@ const Header = () => {
 
         <div className="hidden md:block">
           <Button asChild className="rounded-full px-6 shadow-card font-semibold">
-            <a href="/prenota">Prenota Consulenza</a>
+            <a href="/prenota">Consulenza Gratuita</a>
           </Button>
         </div>
 

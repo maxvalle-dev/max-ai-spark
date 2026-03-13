@@ -68,8 +68,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t py-6">
-        <div className="container flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-muted">
+      <div className="border-t border-white/10 py-6">
+        <div className="container flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-white/40">
           <span>© {new Date().getFullYear()} MaxValle.it — Tutti i diritti riservati</span>
           <span>P.IVA: IT02948220967</span>
         </div>

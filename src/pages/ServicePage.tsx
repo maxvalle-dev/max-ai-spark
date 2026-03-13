@@ -137,7 +137,7 @@ const ServicePage = () => {
         </section>
 
         {/* FAQ */}
-        <section className="py-20 md:py-28 bg-surface-dim">
+        <section className="py-20 md:py-28 bg-background">
           <div className="container max-w-2xl">
             <div className="text-center mb-14">
               <h2 className="font-display text-h2-mobile md:text-h2 text-foreground">Domande frequenti</h2>
