@@ -14,9 +14,12 @@ const checkItems = [
 
 
 const certifications = [
-  { icon: Shield, title: "CPEH", desc: "Certified Professional Ethical Hacker" },
-  { icon: Scale, title: "FederPrivacy", desc: "Consulente Privacy certificato" },
-  { icon: Award, title: "CTU Tribunale", desc: "Consulente Tecnico d'Ufficio" },
+  { icon: Award, title: "Consulente IA e Digital Marketing", desc: "Consulente Intelligenza Artificiale e di digital marketing" },
+  { icon: Shield, title: "CPEH n°4053103", desc: "Certified Professional Ethical Hacker" },
+  { icon: Award, title: "IWA n°0312827", desc: "International Web Association" },
+  { icon: Shield, title: "Federprivacy n°FP-9572", desc: "Membro Federprivacy" },
+  { icon: Scale, title: "AIP n°3241", desc: "Associazione Informatici Professionisti" },
+  { icon: Scale, title: "CTU Tribunale", desc: "Consulente Tecnico d'Ufficio — Tribunale di Lodi" },
 ];
 
 const AboutSection = () => {
@@ -52,7 +55,7 @@ const AboutSection = () => {
             className="space-y-8"
           >
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Certificazioni</h4>
+              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Credenziali</h4>
               <div className="space-y-3">
                 {certifications.map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex items-center gap-4 p-4 bg-surface-dim rounded-xl border">
