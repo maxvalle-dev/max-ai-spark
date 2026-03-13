@@ -85,7 +85,7 @@ const HeroSection = () => {
                   <Star key={i} className="w-4 h-4 fill-current" />
                 ))}
               </div>
-              <span>4.9/5 · 200+ recensioni · 2.500 aziende</span>
+              <span>4.9/5 · oltre 110+ recensioni</span>
             </motion.div>
           </div>
 
