@@ -52,18 +52,6 @@ const AboutSection = () => {
             className="space-y-8"
           >
             <div>
-              <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">📚 I miei libri</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {books.map((book) => (
-                  <div key={book.title} className={`${book.color} border rounded-xl p-4 text-center`}>
-                    <div className="text-2xl mb-2">📘</div>
-                    <div className="text-xs font-semibold leading-tight">{book.title}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div>
               <h4 className="font-display text-sm font-semibold uppercase tracking-wider text-muted mb-4">🏅 Certificazioni</h4>
               <div className="space-y-3">
                 {certifications.map(({ icon: Icon, title, desc }) => (
